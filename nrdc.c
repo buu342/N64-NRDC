@@ -31,10 +31,10 @@ int main(int argc, char* argv[])
     // Check if we have the proper commands
     if (argc == 1)
     {
-        printf("\nERROR: No input ROM detected!\n\n");
+        printf("ERROR: No input ROM detected!\n\n");
         printf("Program usage:\n");
         printf("%s romname.n64\n", argv[0]);
-        printf("or\n", argv[0]);
+        printf("or\n");
         printf("%s romname.n64 \"ROMNAME\" MANUFACTURER ID REGION\n", argv[0]);
         return 1;
     }
@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
     ptr = fopen(argv[1],"r+b");
     if (ptr == NULL)
     {
-        printf("\nError opening file\n");
+        printf("Error opening file\n");
         return 1;
     }
     
