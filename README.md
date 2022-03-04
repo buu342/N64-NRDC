@@ -4,7 +4,7 @@ This tool is an open source replacement for Nintendo's NRDC tool, which was used
 
 This tool will **not** byteswap the inputted data if provided with a V64 ROM.
 
-You can obtain compiled executables from the [Releases][releases] page.
+You can obtain compiled executables from the [Releases](releases) page.
 </br></br>
 
 ### Compilation
