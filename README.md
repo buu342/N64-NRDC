@@ -11,10 +11,7 @@ You can obtain compiled executables from the [releases](../../releases) page.
 
 If you are on Windows, simply run `makeme.bat` (assuming you have GCC installed).
 
-If you are on Linux, compilation is as simple as running the following in a command prompt:
-```
-gcc -o nrdc nrdc.c
-```
+If you are on Linux, compilation is as simple as calling `make` in a command prompt.
 </br>
 
 ### Program usage
